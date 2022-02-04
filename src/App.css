@@ -1,0 +1,53 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Rubik',sans-serif;
+  color:#393c41;
+  box-sizing: border-box;
+}
+body{
+width: 100%;
+}
+.Arrow{
+  width: 40px;
+  left: 54%;
+  top: 48%;
+  position: relative;
+  animation: updown 1.5s linear infinite;
+}
+@keyframes updown{
+  100%{
+    transform: translateY(20px);
+  }
+}
+.Navbar{
+  flex: 1;
+  text-align: center;
+}
+.Navbar li{
+  list-style: none;
+  position: relative;
+   display: inline-block;
+  text-transform: uppercase;
+  padding: 8px 12px;
+}
+.Navbar li a{
+  text-decoration: none;
+  font-size: 19px;
+  color: #000;
+  font-weight: 600;
+}
+.MenuBar{
+  font-size: 35px;
+  cursor: pointer;
+}
+.Logo{
+  width: 140px;
+}
+.Close{
+  top:10px;
+  right: 10px;
+  position: absolute;
+  font-size: 30px;
+  cursor: pointer;
+}
